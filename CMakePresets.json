@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "configurePresets": [
+      {
+        "name": "default",
+        "generator": "Visual Studio 17 2022",
+        "binaryDir": "C:/Users/senio/Desktop/test2/build",
+        "cacheVariables": {
+          "CMAKE_TOOLCHAIN_FILE": "C:/Users/senio/Desktop/lox/vcpkg/scripts/buildsystems/vcpkg.cmake"
+        }
+      }
+    ]
+  }
