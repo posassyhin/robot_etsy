@@ -9,7 +9,7 @@ find_package(CURL REQUIRED)
 include_directories(${VCPKG_INCLUDE_DIR})
 include_directories(include)
 
-add_executable(robot_etsy src/test2.cpp src/ProxyManager.cpp src/Downloader.cpp src/HTMLParser.cpp)
+add_executable(robot_etsy src/main.cpp src/ProxyManager.cpp src/Downloader.cpp src/HTMLParser.cpp include/Utils.h)
 
 target_link_libraries(robot_etsy PRIVATE CURL::libcurl)
 find_package(unofficial-gumbo CONFIG REQUIRED)
